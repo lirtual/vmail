@@ -44,12 +44,9 @@ export default function App() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
-        <script
-          defer
-          src="https://umami.oiov.dev/script.js"
-          data-website-id="4e48018a-ecd4-4d52-81ef-fcc771e981c5"></script>
+        <script defer src="https://umami.lirtual.cloudns.org/DB5128FC0DA04977A783138EAF6E6E58" data-website-id="6bb8c35f-deb5-4e0b-9024-74f02ac6ab62"/>
         {/* Google Analytics */}
-        <script
+        {/* <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-39WSEGK1FQ"></script>
         <script
@@ -60,7 +57,7 @@ export default function App() {
               gtag('js', new Date());
               gtag('config', 'G-39WSEGK1FQ');
             `,
-          }}></script>
+          }}></script> */}
       </head>
       <body className="">
         <Outlet />
